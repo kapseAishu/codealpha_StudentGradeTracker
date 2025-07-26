@@ -1,0 +1,24 @@
+1.Student Data Management:
+   I defined a Student class with three fields:
+   - name: The student’s name.
+   - letterGrade: The grade in letter format (e.g., A, B+).
+   - numericGrade: The corresponding numeric grade (e.g., 93 for A).
+
+2.Grade Conversion:
+implemented a convertGrade() method that converts letter grades to numeric scores using a switch statement.
+
+3.User Input:
+The program prompts the user to enter the number of students.
+For each student, it collects:Name,Letter grade (validates it using the convertGrade method).
+
+4.Storage:
+All student objects are stored in an ArrayList<Student> for dynamic management.
+
+5.Calculations:
+  - Calculates the average, highest, and lowest numeric grades.
+  - Tracks the student(s) with the highest and lowest scores.
+
+6.Output:
+- Displays a student report showing each student’s name, letter grade, and numeric grade.
+- Prints a summary report including: Average grade,Highest grade and student name
+,Lowest grade and student name
